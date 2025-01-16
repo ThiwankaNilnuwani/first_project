@@ -1,0 +1,42 @@
+name: first_project
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.5.0
+  cupertino_icons: ^1.0.8
+
+  http: ^1.2.2
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is included.
+  uses-material-design: true
+
+  # Assets section under flutter
+
+
+  # If you are using custom fonts, you can include them here.
+  # For example:
+  # fonts:
+  #   - family: Schylerf
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
