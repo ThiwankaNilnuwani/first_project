@@ -7,6 +7,8 @@ class GetStarted extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
 
+    //start UI
+
     return Scaffold(
       body: Container(
         width: size.width,
