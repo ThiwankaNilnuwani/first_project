@@ -15,28 +15,22 @@ dependencies:
     sdk: flutter
   font_awesome_flutter: ^10.5.0
   cupertino_icons: ^1.0.8
-
   http: ^1.2.2
   intl: ^0.20.1
+  weather: ^3.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
 
-# The following section is specific to Flutter packages.
 flutter:
-  # The following line ensures that the Material Icons font is included.
+  # Ensures the Material Icons font is included
   uses-material-design: true
 
-  # Assets section under flutter
-
-
-  # If you are using custom fonts, you can include them here.
-  # For example:
-  # fonts:
-  #   - family: Schylerf
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  # Asset declarations
+  assets:
+    - assets/images/get-started.png
+    - assets/images/checked.png
+    - assets/images/unchecked.png
+    - assets/images/
